@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Background Selector</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: background-image 0.5s ease-in-out;
+    }
+    #selector-container {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="selector-container">
+    <label for="image-selector">Choose a background image:</label>
+    <select id="image-selector"></select>
+  </div>
+  <script src="static/script.js"></script>
+</body>
+</html>
